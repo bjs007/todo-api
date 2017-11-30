@@ -9,4 +9,6 @@ db.todo = sequelize.import(__dirname + '/models/todo.js');
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
+
+var a;
 module.exports = db;
